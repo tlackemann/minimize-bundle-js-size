@@ -1,0 +1,28 @@
+{
+  "name": "minimize-bundle-size",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "example": "browserify src/example.js -o dist/bundle.js -t [ babelify --presets [ es2015 ] ] -v -d -g uglifyify",
+    "example2": "browserify src/example-2.js -o dist/bundle-2.js -t [ babelify --presets [ es2015 ] ] -v -d -g uglifyify",
+    "build": "npm run example && npm run example2",
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.4.0",
+    "babel-eslint": "^5.0.0-beta6",
+    "babel-preset-es2015": "^6.3.13",
+    "babelify": "^7.2.0",
+    "browserify": "^13.0.0",
+    "eslint": "^1.10.3",
+    "eslint-config-airbnb": "^3.1.0",
+    "uglifyify": "^3.0.1"
+  },
+  "dependencies": {
+    "lodash": "^4.0.0",
+  }
+}
