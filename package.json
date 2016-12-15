@@ -23,6 +23,6 @@
     "uglifyify": "^3.0.1"
   },
   "dependencies": {
-    "lodash": "^4.0.0",
+    "lodash": "^4.0.0"
   }
 }
