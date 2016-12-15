@@ -11,7 +11,7 @@ Related Post: https://lacke.mn/reduce-your-bundle-js-file-size/
 If you want to test the bundles (each runs the same basic examples), you can use:
 
 ```
-npm build
+npm run build
 ```
 
 ## License
